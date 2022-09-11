@@ -36,10 +36,6 @@ Exibir um ou mais elementos, tais como:
 
 > Para mais referencias acesse [W3C School](https://www.w3schools.com/cssref/default.asp)
 
-<!-- Ordem de carregamento na web
-1. htm que informa se há ou não
-2. um css para ser carregado -->
-
 ## Javascript
 
 É o responsável por manipular a DOM conforme as interações do usuário.
@@ -57,6 +53,12 @@ Uma lista de sites bons para consultar sobre JS:
 
 - [Developer mozilla](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [W3C School](https://www.w3schools.com/js/)
+
+## Ordem de carregamento
+
+1. HTML
+2. CSS
+3. Javascript
 
 ---
 
