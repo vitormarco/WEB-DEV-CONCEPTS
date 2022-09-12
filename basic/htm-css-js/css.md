@@ -71,3 +71,5 @@ div {
   border-radius: 16px;
 }
 ```
+
+> Você pode encontrar mais conteúdo no link abaixo [MDN web docs](https://developer.mozilla.org/en-US/docs/Learn/CSS/First_steps/Getting_started)
