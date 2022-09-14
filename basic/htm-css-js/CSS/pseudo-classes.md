@@ -27,7 +27,7 @@ button:focus {
 }
 ```
 
-### checked
+### Checked
 
 Essa pseudo-class apenas é utilizada para checkbox e radio buttons que são marcados.
 
