@@ -66,3 +66,5 @@ e outros não. Essa inconsistência é problemática.
 
 Única utilização aceitável, é em termos decorativos (ex. formas coloridas). Sendo isso, não tem um problema de usar um <br>
 conteúdo de string vazia.
+
+> Você pode achar mais exemplos de pseudo-elements em [MDN web docs](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements)
