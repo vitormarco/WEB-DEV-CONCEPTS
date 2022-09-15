@@ -1,0 +1,68 @@
+## Pseudo-elements
+
+Pseudo-ements são como [pseudo-classes](./pseudo-classes.md), mas eles não atuam sobre um estado especifico. Em vez disso, <br>
+ele atuam sobre um "sub-elemento" dentro de um elemento.
+
+Em um input por exemplo, temos um sub-elemento, chamado `::placeholder`
+
+```css
+input::placeholder {
+  color: blue;
+}
+```
+
+### Sintaxe
+
+Falando de sintaxe, os pseudo-elements possui dois pontos (::) em vez de um (comparando com pseudo-classes).<br>
+Alguns pseudo-elements suportam um dois pontos (:).
+
+### Exemplos mais comuns
+
+Before e after são os pseudo-elements mais utilizados, eles são representados por `::before` e `::after`.
+
+```htm
+<style>
+  p::before {
+    content: "→ ";
+    color: deeppink;
+  }
+
+  p::after {
+    content: " ←";
+    color: deeppink;
+  }
+</style>
+
+<p>Esse paragrafo tem pequenas setas!</p>
+```
+
+o resultado produzido será `-> Esse paragrafo tem pequenas setas! <-`.
+
+Analisando então, esses pseudo-elements são adicionados dentro do elemento, antes e depois do elemento.
+outra forma de usar seria por exemplo:
+
+```html
+<style>
+  .pseudo-pseudo {
+    color: deeppink;
+  }
+</style>
+
+<p>
+  <span class="pseudo-pseudo">→ </span>
+  Esse paragrafo tem pequenas setas!
+  <span class="pseudo-pseudo"> ←</span>
+</p>
+```
+
+Não há nenhum diferença significativa entre esses dois exemplo se tratando de performance. `::before` e `::after` <br>
+são apenas "dois spans secretos".
+
+Em geral, provavelmente não devemos usar esses dois pseudo-elements. Em um mundo HTML/CSS vanilla, pode ser útil agrupar <br>
+conteúdo com um CSS selector. Na era dos componentes, no entando, temos maneiras melhores de agrupar conteúdo.
+
+Outro problema com `::before` e `::after` é a questão da acessibilidade. Alguns leitores de tela irão vocalizar o conteúdo <br>
+e outros não. Essa inconsistência é problemática.
+
+Única utilização aceitável, é em termos decorativos (ex. formas coloridas). Sendo isso, não tem um problema de usar um <br>
+conteúdo de string vazia.
