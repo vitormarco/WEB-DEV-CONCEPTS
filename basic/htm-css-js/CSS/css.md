@@ -54,7 +54,7 @@ Uma regra pode ser um conhecida como style(estilo), multiplas regras, são um st
 css = cascading stylesheet (Folha de estilo em cascata)
 
 ```css
-/* Nesse exemplo todo o bloco de h1 é uma rule, ou seja da linha 51 até 58 */
+/* Nesse exemplo todo o bloco de h1 é uma rule, ou seja da linha 58 até 61 */
 h1 {
   color: red;
   font-family: sans-serif;
