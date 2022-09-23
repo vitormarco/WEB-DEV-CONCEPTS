@@ -29,3 +29,5 @@ Suas funções são:
 ```
 
 São tagas conhecidas como self closing
+
+> Referencia [W3C](https://www.w3schools.com/tags/tag_meta.asp)

@@ -6,3 +6,5 @@ Suporta em torno de 50-60 caracteres, importante não usar uma lista de palavras
 ```html
 <title>Minha página</title>
 ```
+
+> Referencia [W3C](https://www.w3schools.com/tags/tag_title.asp)
