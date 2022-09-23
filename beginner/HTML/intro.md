@@ -41,3 +41,7 @@ Exemplo:
 ```html
 <p>O meu primeiro parágrafo</p>
 ```
+
+#### Dicas
+
+um comentario no html da para ser utilizado como `<!-- aqui o comentario -->`
