@@ -44,15 +44,15 @@ Outro exemplo, para fixação:
 </p>
 ```
 
-`EM` não são muito utilizados. Usa-los significa que UI irá mudar dependendo do tamanho da fonte, isso pode ser útil em alguns casos,
-mas na maioria dos casos vai ser irritante. O `rem` acaba sendo mais útil, na maior parte das circunstancias.
+`EM` não são muito utilizados. Usá-los significa que UI irá mudar dependendo do tamanho da fonte, isso pode ser útil em alguns casos,
+mas na maioria dos casos vai ser irritante. O `rem` acaba sendo mais útil, na maior parte das circunstâncias.
 
 ## REMs
 
 O `rem` é parecido com `em`, com uma diferença crucial: ele sempre é relativo ao elemento root, ou seja, tag <html>.
-Como foi comentando antes, a tag html tem como tamanho de fonte padrão 16px, então 1rem é igual 16px.
+Como foi comentado antes, a tag html tem como tamanho de fonte padrão 16px, então 1rem é igual a 16px.
 
-Ou seja, `rem` acaba sendo mais consistente do que o `em`, pois respeita as preferencias do usuário quando o mesmo diminui ou aumenta o tamanho padrão da fonte.
+Ou seja, `rem` acaba sendo mais consistente do que o `em`, pois respeita as preferências do usuário quando o mesmo diminui ou aumenta o tamanho padrão da fonte.
 
 **Obs.:** Não altere o tamanho padrão em px na tag html. Pois isso irá sobrescrever as escolhas do usuário.
 Maneira correta seria alterar atráves da porcentagem `(%)`
@@ -84,11 +84,11 @@ Maneira correta seria alterar atráves da porcentagem `(%)`
 </html>
 ```
 
-> Se não está afim de fazer calculos, recomendo o seguinte site que faz [conversão](https://nekocalc.com/px-to-percentage-converter)
+> Se não está afim de fazer cálculos, recomendo o seguinte site que faz [conversão](https://nekocalc.com/px-to-percentage-converter)
 
 ## Percentages
 
-A porcentagem normalmente é usada com largura e altura, pois consome um porção do espaço livre.
+A porcentagem normalmente é usada com largura e altura, pois consome uma porção do espaço livre.
 
 ```html
 <style>
@@ -110,7 +110,7 @@ A porcentagem normalmente é usada com largura e altura, pois consome um porçã
 </div>
 ```
 
-No exemplo, criamos uma div pai, e uma div filho. A div pai tem um tamanho de 250x250px, e a filho 50% da largura e 75% da altura.
-Se o tamanho do pai mudar, então filho irá mudar também. No nosso exemplo o filho está com 125x187.5 px.
+No exemplo, criamos uma div pai, e uma div filho. A div pai tem um tamanho de 250x250px, e o filho 50% da largura e 75% da altura.
+Se o tamanho do pai mudar, então o filho irá mudar também. No nosso exemplo o filho está com 125x187.5 px.
 
 > Se vocês estiver com alguma dúvida de como e quando utilizar cada medida, recomendo leitura desse [artigo](https://www.joshwcomeau.com/css/surprising-truth-about-pixels-and-accessibility/)

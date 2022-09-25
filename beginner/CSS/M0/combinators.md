@@ -1,10 +1,10 @@
 ## Combinators
 
-São usados quando você precisa estilizar uma combinação especifica de código. <br>
+São usados quando você precisa utilizar uma combinação específica de código. <br>
 Vamos imaginar que você necessita estilizar um link, ou elemento a. <br>
-Você diria, bom só usar [selector](./Selectors.md), mas se fosse somente um tipo de link especifico, vamos supor, somente <br>
+Você diria, bom só usar [selector](./Selectors.md), mas se fosse somente um tipo de link específico, vamos supor, somente <br>
 links de navegação do site (ex. home - sobre nós) e não os links contidos nos documentos. <br>
-Talvez passou na sua cabeça usar um selector de uma classe, é funcionaria, mas em vez disso você poderia utilizar um combinator.
+Talvez passou na sua cabeça usar um selector de uma classe, é funcionária, mas em vez disso você poderia utilizar um combinator.
 
 Vejamos um exemplo
 
@@ -29,13 +29,13 @@ nav a {
 }
 ```
 
-estamos selecionando combinando dois selectors, estamos falando para css. Selecione nav e os elementos a descendentes de nav terão <br>
+Estamos selecionando combinando dois selectors, estamos falando para css. Selecione nav e os elementos a descendentes de nav terão <br>
 seguinte estilo.
 
-Então podemos dizer que um combinator pode ser caracter que combina multiplos selectors. No nosso exemplo, podemos dizer que <br>
-o espaço em branco entre eles (nav - a) criam um selector de descendencia.
+Então podemos dizer que um combinator pode ser caracterizado por múltiplos selectores. No nosso exemplo, podemos dizer que <br>
+O espaço em branco entre eles (nav - a) criam um selector de descendência.
 
-Um selector de descendencia, irá aplicar para todos os descendetes, não importa o quão profundo está a descendecia.
+Um selector de descendência, irá aplicar para todos os descendentes, não importa o quão profundo está a descendência.
 
 ```html
 <nav>
@@ -53,8 +53,8 @@ Um selector de descendencia, irá aplicar para todos os descendetes, não import
 Nesse caso não importa se o filho de nav é ul, o que importa na regra CSS criada em cima, irá aplicar para qualquer nav <br>
 que tenha como, não importa o nivel, um descendente `<a>` o estilo será aplicado.
 
-Existe então, no CSS, uma diferença entre descendentes e filho. Podemos fazer uma referencia arvore genealogica, um level abaixo
-em uma arvore genealogica é o filho, filho do filho é o neto. E assim por diante.
+Existe então, no CSS, uma diferença entre descendentes e filhos. Podemos fazer uma referência à árvore genealógica, um level abaixo.
+Em uma árvore genealógica é o filho, filho do filho é o neto. E assim por diante.
 
 Mas e se queremos aplicar um estilo apenas no filho?
 Bom existe outro combinator `>`

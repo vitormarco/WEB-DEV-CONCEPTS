@@ -4,13 +4,13 @@ Para um juiz ler um processo ou médico ler um laudo, e entender as questões t�
 respectivas faculdades. Para o navegador, ele precisa "saber" o que ele está lendo, quando entra em um arquivo. Primeira
 coisa é a extensão (.html), logo após, precisamos indicar qual versão do html esse arquivo está.
 
-Isso se da pelo seguinte código no topo do nosso arquivo:
+Isso se dá pelo seguinte código no topo do nosso arquivo:
 
 ```html
 <!DOCTYPE html>
 ```
 
-Seguinte código, indica para o navegador que ele está lendo um arquivo html na versão 5. _Essa declaração não é case sensitive_
+Seguinte código, indica para o navegador que ele está lendo um arquivo html na versão 5. **Essa declaração não é case sensitive**
 
 > Caso você se depara com uma outra estrutura, significa que está em uma versão inferior [Older HTML Documents](https://www.w3schools.com/tags/tag_doctype.asp)
 
@@ -29,9 +29,9 @@ logo após essa versão, toda página conterá no minimo 3 dos elementos a segui
 Essa tag é responsável por indicar o inicio dos códigos html e o fim. Sempre importante adicionar atributo `lang` nessa tag,
 para auxiliar os motores de busca.
 
-O lang é constituido de `ISO 639-1` códigos de linguagem como `pt, en, fr e de` que significa Português, English, Frances e Alemão.
-E também é constituido pelo `ISO` código do país. Por exemplo, `BR e US`. Para códigos como `fr-FR` pode ocultar o código do país.
-Mas no caso do Brasil ou Estados Unidos por exemplo, deve adicionar o pais referencia para linguagem porque somente `pt` significa que é de portugal.
+O lang é constituído de `ISO 639-1` códigos de linguagem como `pt, en, fr e de` que significa Português, Inglês, Francês e Alemão.
+E também é constituído pelo `ISO` código do país. Por exemplo, `BR e US`. Para códigos como `fr-FR` pode ocultar o código do país.
+Mas no caso do Brasil ou Estados Unidos por exemplo, deve adicionar o país referência para linguagem porque somente `pt` significa que é de portugal.
 
 > referencia [W3C html tag](https://www.w3schools.com/tags/tag_html.asp)
 

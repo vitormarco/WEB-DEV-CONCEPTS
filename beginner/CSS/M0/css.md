@@ -19,12 +19,12 @@ Seletores são o que descreve algum elemento da página, esses elementos podem s
 um id para um elemento especifico ou até mesmo uma classe para representar um ou mais elementos.
 
 ```css
-/* ".apple" é um exemplo de seletor do tipo classe. Irá selecionar todos os elementos que contem class .apple */
+/* ".apple" é um exemplo de seletor do tipo classe. Irá selecionar todos os elementos que contém class .apple */
 .apple {
   background: red;
 }
 
-/* "#banana" é exemplo de seletor do tipo id. Irá selecionar somente o id especifico */
+/* "#banana" é exemplo de seletor do tipo id. Irá selecionar somente o id específico */
 #banana {
   background: yellow;
 }
@@ -48,13 +48,13 @@ h1 {
 
 ### Rule (regra)
 
-Uma regra, é um coleção de declarações atribuidas para um ou mais seletores. <br>
-Uma regra pode ser um conhecida como style(estilo), multiplas regras, são um stylesheet(folha de estilo)
+Uma regra, é uma coleção de declarações atribuídas para um ou mais seletores. <br>
+Uma regra pode ser um conhecida como style(estilo), múltiplas regras, são um stylesheet(folha de estilo)
 
-css = cascading stylesheet (Folha de estilo em cascata)
+css = cascading style sheet (Folha de estilo em cascata)
 
 ```css
-/* Nesse exemplo todo o bloco de h1 é uma rule, ou seja da linha 58 até 61 */
+/* Nesse exemplo todo o bloco de h1 é uma rule, ou seja da linha 58 a 61 */
 h1 {
   color: red;
   font-family: sans-serif;
@@ -66,7 +66,7 @@ h1 {
 Alguns valores tem unidade (como unidade de medida). Esses valores pode ser em px, %, rem ou em
 
 ```css
-/* nesse caso do exemplo estamos usando px, mas poderia ser em rem 1rem = 16px ou até mesmo porcentagem */
+/* nesse caso do exemplo estamos usando px, mas poderia ser em rem 1 rem = 16px ou até mesmo porcentagem */
 div {
   border-radius: 16px;
 }

@@ -6,20 +6,20 @@ Responsável por colocar uma determinada palavra em negrito
 
 ### `<strong></strong>`
 
-Efeito visual semelhante a tag `<b>`, contudo, na questão de semantica, significa que você gostaria de dar um pouco
-mais de "importancia" para os mecanismos de busca.
+Efeito visual semelhante a tag `<b>`, contudo, na questão de semântica, significa que você gostaria de dar um pouco
+mais de “importância” para os mecanismos de busca.
 
 ### `<i></i>`
 
-Responsável por colocar o texto em italico
+Responsável por colocar o texto em itálico
 
 ### `<em></em>`
 
-Mesmo efeito visual do italico, contudo, da uma enfase ao conteúdo na questão semantica. Importante para os mecanismos de buscas
+Mesmo efeito visual do itálico, contudo, dá ênfase ao conteúdo na questão semântica. Importante para os mecanismos de buscas
 
 ### `<mark></mark>`
 
-Você "marca" o texto, como se fosse com um "marcado de texto".
+Você "marca" o texto, como se fosse com um "marcador de texto".
 
 ### `<small></small>`
 
@@ -27,11 +27,11 @@ Deixa o texto menor, como se fosse um "nota de rodapé"
 
 ### `<sub></sub>`
 
-desce o nivel da linha
+desce o nível da linha
 
 ### `<sup></sup>`
 
-Sobe o nivel da linha
+Sobe o nível da linha
 
 ### `<del></del>`
 
@@ -69,7 +69,7 @@ Um dado foi inserido
 
 ### Breakline
 
-Como talvez você tenha percebindo, por mais que nosso exemplo tenha uma quebra, na prática o navegador exibe o espaço que ele conseguir ocupar.
+Como talvez você tenha percebido, por mais que nosso exemplo tenha uma quebra, na prática o navegador exibe o espaço que ele conseguir ocupar.
 Bom a tag responsável por "forçar" uma quebra, é o `<br>` (uma tag de auto fechamento breakline)
 
 ```html
@@ -82,8 +82,8 @@ Bom a tag responsável por "forçar" uma quebra, é o `<br>` (uma tag de auto fe
 </p>
 ```
 
-tips: Não usar vários brs seguidos para aumentar o espaço de linha '-'
+tips: Não usar vários brs seguidos para aumentar o espaço de linha '-' <br>
 text <br>
-`<br>`
-`<br>`
+`<br>`<br>
+`<br>`<br>
 text

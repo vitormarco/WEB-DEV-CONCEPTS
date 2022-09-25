@@ -1,7 +1,7 @@
 ## Titulos
 
-São os responsável pela "manchete" (ou do inglês Headline) do corpo do texto.
-São divididos em alguns niveis:
+São os responsáveis pela "manchete" (ou do inglês Headline) do corpo do texto.
+São divididos em alguns níveis:
 
 - h1
 - h2
@@ -29,12 +29,12 @@ Utilizado para criar um paragrafo dentro do html.
 
 ```html
 <p>
-  Esse é um paragrafo que foi gerado de maneira aleatoria, importante que isso
-  seja assim, com um uma quantidade consideravel de conteúdo
+  Esse é um parágrafo que foi gerado de maneira aleatória, importante que isso
+  seja assim, com um uma quantidade considerável de conteúdo
 </p>
 ```
 
-**Obs: Nunca** utilize um titulo dentro do paragrafo e nem um paragrafo dentro do titulo, pois isso irá influenciar no motor de busca.
-por exemplo se alguém está pesquisando sobre teclado mecanico, e tu coloca um titulo dentro de um paragrafo, o motor de busca irá entender que
-aquele documento tem algo relacionado e vai oferecer a pesquisa para alguem. Mas no fim da historia, você estava falando sobre viagem, e que nessa viagem utilizou
-um teclado mecanico.
+**Obs: Nunca** Utilize um título dentro do parágrafo e nem um parágrafo dentro do título, pois isso irá influenciar no motor de busca.
+por exemplo se alguém está pesquisando sobre teclado mecânico, e tu coloca um título dentro de um parágrafo, o motor de busca irá entender que
+aquele documento tem algo relacionado e vai oferecer a pesquisa para alguém. Mas no fim da história, você estava falando sobre viagem, e que nessa viagem utilizou
+um teclado mecânico.

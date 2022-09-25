@@ -1,6 +1,6 @@
 ## Pseudo-elements
 
-Pseudo-ements são como [pseudo-classes](./pseudo-classes.md), mas eles não atuam sobre um estado especifico. Em vez disso, <br>
+Pseudo-ements são como [pseudo-classes](./pseudo-classes.md), mas eles não atuam sobre um estado específico. Em vez disso, <br>
 ele atuam sobre um "sub-elemento" dentro de um elemento.
 
 Em um input por exemplo, temos um sub-elemento, chamado `::placeholder`
@@ -36,7 +36,7 @@ Before e after são os pseudo-elements mais utilizados, eles são representados 
 <p>Esse paragrafo tem pequenas setas!</p>
 ```
 
-o resultado produzido será `-> Esse paragrafo tem pequenas setas! <-`.
+o resultado produzido será `-> Esse parágrafo tem pequenas setas! <-`.
 
 Analisando então, esses pseudo-elements são adicionados dentro do elemento, antes e depois do elemento.
 outra forma de usar seria por exemplo:

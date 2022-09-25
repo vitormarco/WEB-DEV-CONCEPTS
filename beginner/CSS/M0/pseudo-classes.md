@@ -4,7 +4,7 @@ Pseudo-classes são elementos do css que ajudam aplicar uma pedaço de css basea
 
 ### Hover
 
-Utilizado quando o mouse passa por cima de algo, assim que mouse passa ele aplica algum estilo.
+Utilizado quando o mouse passa por cima de algo, assim que o mouse passar ele aplica algum estilo.
 
 ```css
 button:hover {
@@ -16,7 +16,7 @@ Nesse exemplo, quando passar o mouse por cima de um elemento botão, ele irá tr
 
 ### Focus
 
-Alguns elementos que possui intereção como button, links e inputs. Quando interagimos com eles (clicando ou no tab) <br>
+Alguns elementos que possuem interação como button, links e inputs. Quando interagimos com eles (clicando ou no tab) <br>
 estado dessa interação é o focus.
 
 ```css

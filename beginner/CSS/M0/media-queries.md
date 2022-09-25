@@ -14,7 +14,7 @@ Ela segue o seguinte formato:
 
 Ou seja, se a resolução da janela está entre 0px e 300px de largura, a regra estabelecida será aplicada. <br>
 
-### Hiding content (conteúdo escondido)
+### Hidden content (conteúdo escondido)
 
 É normal usar combinação de media queries para ter interfaces alternativas, dependendo do tamanho da tela.
 

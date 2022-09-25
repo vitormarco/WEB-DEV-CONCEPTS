@@ -1,18 +1,18 @@
 ## Typography
 
-O texto é o aspecto mais importante da web. Remova o texto da página, e virá ser totalmente inutil a página web.
-Isso não é verdade sobre images, cores ou estilo. (think about)
+O texto é o aspecto mais importante da web. Remova o texto da página, e virá ser totalmente inútil a página web.
+Isso não é verdade sobre imagens, cores ou estilo. (think about)
 
 ### Font families
 
-Podemos mudar qual a fonte ser usada em uma página web atráves da **propriedade** `font-family`:
+Podemos mudar qual a fonte ser usada em uma página web através da **propriedade** `font-family`:
 
 ```css
 font-family: Arial;
 ```
 
-É chamado de _family_ porque cada font consiste de multiplos caracteres de definição:
-Por exemplo _"Roboto"_ inclui 12 definições individuais: 6 font weights com 2 variações (normal e italico)
+É chamado de _family_ porque cada font consiste de múltiplos caracteres de definição:
+Por exemplo _"Roboto"_ inclui 12 definições individuais: 6 font weights com 2 variações (normal e itálico)
 
 Há algumas fonts chamadas "web safe fonts", ou fontes seguras da web, isso significa que existe uma variedade de fontes
 pré instaladas na maior parte dos sistemas operacionais como por exemplo:
@@ -21,7 +21,7 @@ pré instaladas na maior parte dos sistemas operacionais como por exemplo:
 - Times New Roman
 - Tahoma
 
-Familia de fontes vem com diferentes estilos, os mais populares São:
+Família de fontes vem com diferentes estilos, os mais populares São:
 
 - Serif
 - Sans-serif
@@ -56,13 +56,13 @@ E o CSS também, contudo iremos focar em 3 dessas maneiras:
 
 ### Bold text
 
-Criamos um texto em negrito com esse valor, e atribuimos a propriedade `font-weight`
+Criamos um texto em negrito com esse valor, e atribuímos a propriedade `font-weight`
 
 ```css
 font-weight: bold;
 ```
 
-Também podemos usar a forma numerica que vai de 1 a 1000, sendo um o peso mais fraco e 1000 o mais forte.
+Também podemos usar a forma numérica que vai de 1 a 1000, sendo um o peso mais fraco e 1000 o mais forte.
 
 ```css
 /* Textos mais 'leves' ou 'thin text', textos finos */
@@ -78,7 +78,7 @@ font-weight: 700;
 #### Italic text
 
 Normalmente usamos quando queremos dar um enfase em alguma parte do texto. Na web, normalmente essa ênfase é uma inclinação em ângulo.
-O texto em angulo, sugere que as palavras estão sendo 'inclinadas'.
+O texto em ângulo, sugere que as palavras estão sendo 'inclinadas'.
 
 ```css
 font-style: italic;
@@ -86,7 +86,7 @@ font-style: italic;
 
 #### Underline text
 
-Na web, `underline` tem como função algo extremamente especifico: informa que existe um link.
+Na web, `underline` tem como função algo extremamente específico: informar que existe um link.
 
 Não devemos, usar como efeito visual ou algo para destacar algo importante, pois irá confundir o usuário.
 
@@ -117,7 +117,7 @@ p {
 }
 ```
 
-`text-align` é capaz de alinhar outros elementos, como por exemplo, as imagens. Mas no geral, iremos utilizar outras abordagem.
+`text-align` é capaz de alinhar outros elementos, como por exemplo, as imagens. Mas no geral, iremos utilizar outras abordagens.
 Devemos deixar `text-aling` somente para textos.
 
 ### Text Transforms
@@ -132,9 +132,9 @@ text-transform: uppercase;
 text-transform: capitalize;
 ```
 
-Porque utilizar? Bom é aconselhável usar esta propriedade CSS para que mantemos a caixa "original".
-No futuro, caso editamos o html, talvez seja necessario a remoção da caixa alta em tudo por exemplo.
-Se tivéssemos editado o HTML, teriamos que identificar cada instancia do texto e alterar. Já com css, so precisamos remover em um lugar.
+Por que utilizar? Bom é aconselhável usar esta propriedade CSS para que mantemos a caixa "original".
+No futuro, caso editemos o html, talvez seja necessário a remoção da caixa alta em tudo por exemplo.
+Se tivéssemos editado o HTML, teríamos que identificar cada instância do texto e alterar. Já com css, só precisamos remover em um lugar.
 
 ### Spacing
 
@@ -150,13 +150,13 @@ h3 {
 }
 ```
 
-<!-- Um puco confuso, melhorar -->
+<!-- Um pouco confuso, melhorar -->
 
 `line-height` é um pouco estranho, pois não leva unidade no valor. <br>
 Isso funciona com uma proporção `line-height: 2;` significa que vai ser duas vezes mais alta que um elemento com altura 1.
 
-⚠️ No objetivo de tornar os websites mais acessivel possivel, devemos sempre escolher um valor generoso para `line-height`. Pois isso
-ajuda melhorar experiencia daqueles com dificuldade de visão, assim como dificuldades cognitivas como a dislexia.
+⚠️ No objetivo de tornar os websites mais acessível possível, devemos sempre escolher um valor generoso para `line-height`. Pois isso
+ajuda a melhorar a experiência daqueles com dificuldade de visão, assim como dificuldades cognitivas como a dislexia.
 
 Podemos passar uma unidade para line-height como no exemplo abaixo:
 

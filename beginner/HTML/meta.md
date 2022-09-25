@@ -3,13 +3,13 @@
 Tag referente aos metadados (informação sobre os dados). É utilizada também dentro da tag `<head>`.
 Suas funções são:
 
-- conjunto de caractres disponíveis (por exemplo, para reconhecer acentos, normalmente no Brasil, usamos UTF-8)
+- conjunto de caracteres disponíveis (por exemplo, para reconhecer acentos, normalmente no Brasil, usamos UTF-8)
 - descrição da página, é o responsável por colocar um descritivo quando compartilha o link ou quando você pesquisa uma determinada coisa
 - keywords (palavras-chaves)
 - author do documento
 - configurações de viewport
 
-**Não é visivel na tela do usuário, mas sim para percepções da máquina**
+**Não é visível na tela do usuário, mas sim para percepções da máquina**
 
 ```html
 <!DOCTYPE html>
