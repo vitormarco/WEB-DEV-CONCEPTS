@@ -1,0 +1,23 @@
+## Hyperlink
+
+A tag `<a>` é usada para definir um hyperlink (link) na web.
+Esse link pode direcionar tanto para algo interno quanto para algo externo do site.
+
+```html
+<a href="./intro">blog</a>
+
+<a href="https://www.google.com" target="_blank">clique aqui</a>
+```
+
+passamos um atributo para tag `<a>`, que é o responsável pelo caminho para onde aquele hyperlink está apontando.
+Esse atributo é o `href`.
+
+### Absoluto vs relativo
+
+Nossa primeira tag `<a>` é um link absoluto, navegador vai entender que se refere ao dominio onde ele está alocado, ele vai tentar buscar um arquivo chamado `intro`.
+Já na segunda tag `<a>` é um link relativo, ele vai usar o link completo, completar com o dominio atual.
+
+> referência [W3C](https://www.w3schools.com/html/html_links.asp)
+
+**obs.:** Caso digite um endereço que não exista, o navegador por padrão, sempre faz uma requisição _GET_. Como não é retornado o arquivo html, ele retornara um erro.
+_Cannot GET /teu-caminho-que-nao-existe_
