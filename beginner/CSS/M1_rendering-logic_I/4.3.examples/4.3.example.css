@@ -1,0 +1,74 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+section {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 40px;
+  background-color: #ccc;
+}
+
+.box {
+  border: 3px solid currentColor;
+}
+
+.box.one {
+  border-color: deeppink;
+}
+
+.box.two {
+  border-color: gold;
+}
+
+.box.three {
+  border-color: turquoise;
+}
+
+.box.with-text-color {
+  color: deeppink;
+}
+
+.box.with-text-color-two {
+  color: black;
+}
+
+.not-good {
+  /* 🚫 Não irá funcionar – precisa de um estilo! */
+  border: 2px hotpink;
+}
+
+.good {
+  /* 🙆‍♀️ Irá produzir um borda preta, 3px-espessura. */
+  border: solid;
+}
+
+.custom-box {
+  color: hotpink;
+  border: 1px solid currentColor;
+  box-shadow: 2px 2px 2px currentColor;
+}
+
+.box2 {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+
+.box2.radius {
+  /* border: 4px solid hotpink; */
+  border-radius: 25px;
+}
+
+/* 
+  * first: left-top
+  * second: right-top
+  * third: right-bottom
+  * fourth: left-bottom 
+*/
+.box2.radius2 {
+  border-radius: 10px 10px 40px 40px;
+}
